@@ -38,8 +38,7 @@ Besides, please create a folder ```['dataset/NExT-OOD/feats']```, and unzip the 
 You will have directories like ```['dataset/NExT-OOD/feats/vid_feat/', 'dataset/NExT-OOD/feats/qas_bert/'``` in your workspace.
 Please unzip the files in  ```['GCS.zip']``` into ```['models/']```. 
 
-*(You are also encouraged to design your own pre-computed video features. In that case, please download the raw videos from [VidOR](https://xdshang.github.io/docs/vidor.html). As NExT-QA's videos are sourced from VidOR, you can easily link the QA annotations with the corresponding videos according to the key 'video' in the ```['nextqa/.csv']``` files, during which you may need the map file ```['nextqa/map_vid_vidorID.json']```)*.
-
+*(You are also encouraged to design your own pre-computed video features. In that case, please download the raw videos from [VidOR](https://xdshang.github.io/docs/vidor.html). 
 
 ## Usage
 Once the data is ready, you can easily run the code.

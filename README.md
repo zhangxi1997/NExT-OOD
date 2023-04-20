@@ -23,13 +23,14 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
-Please download the NExT-OOD datasets and pre-computed features from [here](https://drive.google.com/drive/folders/1VlQ8Pfpo0-a9pNcPuXh9yGpDEGjaDRaQ?usp=sharing). There are 4 zip files: 
+Please download the NExT-OOD datasets and pre-computed features from [here](https://drive.google.com/drive/folders/1VlQ8Pfpo0-a9pNcPuXh9yGpDEGjaDRaQ?usp=sharing). There are 8 zip files: 
 - ```['NExT-OOD-VQA']```: NExT-OOD-VQA and NExT-OOD-VQA-auto dataset (for evaluation). 
 - ```['NExT-OOD-VA']```: NExT-OOD-VA dataset (for evaluation).
 - ```['NExT-OOD-QA']```: NExT-OOD-QA dataset (for evaluation).
 - ```['NExT-QA']```: NExT-QA dataset (for training).
 - ```['vid_feat.zip']```: Appearance and motion feature for video representation. (provided by [NExT-QA](https://github.com/doc-doc/NExT-QA)).
 - ```['qas_bert_single.zip']```: Extracted BERT feature for QA-pair representation. (Based on [pytorch-pretrained-BERT](https://github.com/LuoweiZhou/pytorch-pretrained-BERT/)).
+- ```['glove_embed.npy']```: Glove Embedding for QA-pair representation. (provided by [NExT-QA](https://github.com/doc-doc/NExT-QA)).
 - ```['GCS.zip']```: Model checkpoint. 
 
 After downloading the data, please put ```['NExT-OOD-VQA'],['NExT-OOD-VA'],['NExT-OOD-QA'],['NExT-QA']``` in the folder ```['dataset/NExT-OOD']```,

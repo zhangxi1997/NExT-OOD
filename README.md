@@ -47,9 +47,7 @@ First, to test the environment and code, we provide the prediction and model of 
 You can get the results on the validation set of the NExT-OOD-VQA by running:
 ```
 >./eval_NExTOOD_VQA.sh 0 #Evaluate the model with GPU id 0
-
 (Expected output: "NExT-OOD-VQA best val: ('39', 42.71) , test result: ('test', 31.69)")
-
 ```
 The command above will load the model under ['models/'] and generate the prediction file.
 If you want to train the model, please run
